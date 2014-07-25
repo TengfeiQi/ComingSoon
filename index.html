@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="amazingsource inc." />
+        <meta name="copyright" content="amazingsource inc." />
+        <meta name="keywords" content="amazingsource inc." />
+        <meta name="description" content="amazingsource inc." />
+        <title>Amazing Source</title>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+        <link href="./public/css/social-font.css" rel="stylesheet">
+        <link href="./public/css/amazingsource.css" rel="stylesheet">
+        <link href="./public/css/show.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="header section">Amazing Source</h1>
+            <!-- Description -->
+            <p class="description section">amazingsource is an amazing platform for developer.</p>
+            <!-- /Description -->
+            <form class="subscription-form section red" id="subscription-form" novalidate="">
+                <input type="email" class="subscription-email" id="subscription-email" name="email" placeholder="Enter email to sign up for news"><button class="subscription-submit" id="subscription-submit">Subscribe</button>
+            </form>
+            <!-- Countdown -->
+            <div id="countdown" class="countdown section">
+                <div class="countdown-item">
+                    <div class="countdown-label">Days</div>
+                    <div class="countdown-number red" id="countdown-days">
+                        <div class="countdown-number-side countdown-number-back"></div>
+                        <div class="countdown-number-side countdown-number-front"></div>
+                    </div>
+                </div>
+
+                <div class="countdown-item">
+                    <div class="countdown-label">Hours</div>
+                    <div class="countdown-number yellow" id="countdown-hours">
+                        <div class="countdown-number-side countdown-number-back"></div>
+                        <div class="countdown-number-side countdown-number-front"></div>
+                    </div>
+                </div>
+
+                <div class="countdown-item">
+                    <div class="countdown-label">Minutes</div>
+                    <div class="countdown-number blue" id="countdown-minutes">
+                        <div class="countdown-number-side countdown-number-back"></div>
+                        <div class="countdown-number-side countdown-number-front"></div>
+                    </div>
+                </div>
+
+                <div class="countdown-item">
+                    <div class="countdown-label">Seconds</div>
+                    <div class="countdown-number green" id="countdown-seconds">
+                        <div class="countdown-number-side countdown-number-back"></div>
+                        <div class="countdown-number-side countdown-number-front"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Countdown -->
+            <!-- Social links -->
+            <div class="social-links">
+                <a href="https://www.facebook.com/amazingsource" class="icon-facebook blue"></a>
+                <a href="https://twitter.com/amazingsource" class="icon-twitter-alt red"></a>
+                <a href="https://plus.google.com/" class="icon-googleplus yellow"></a>
+                <a href="http://youtube.com" class="icon-youtube green"></a>
+                <a href="https://github.com/amazingsource" class="icon-github-alt red"></a>
+            </div>
+            <!-- /Social links -->
+        </div>
+       
+        <!--  
+    
+        <script src="./public/js/jquery.countdown.js"></script>
+        <script src="./public/js/placeholders.min.js"></script>
+        <script src="./public/js/amazingsource.js"></script>
+        <script src="./public/js/show.js"></script>-->
+        <script data-main="./public/js/main" src="./public/js/require.js"></script>
+    </body>
+</html>
