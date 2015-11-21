@@ -1,4 +1,4 @@
-tengfeiqi.github.io/ComingSoon
+http://tengfeiqi.github.io/ComingSoon
 ==========
 
 ComingSoon is a template for coming soon page
